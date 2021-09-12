@@ -133,9 +133,12 @@ body,html {
     color: white;
     font-size: 16px;
     border: white;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .fa {
+    margin: 5px;
     padding: 10px;
     font-size: 30px;
     text-align: center;
@@ -160,5 +163,10 @@ body,html {
   .fa-linkedin {
     background: #007bb5;
     color: white;
+  }
+
+  .contact-me {
+    display: flex;
+    justify-content: center;
   }
   
