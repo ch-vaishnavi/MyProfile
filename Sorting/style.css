@@ -1,7 +1,10 @@
 .mySlides {
     display: none;
 }
-
+.container {
+    height: 100%;
+    width: 100%;
+}
   
 body,html {
     background-color: rgb(5, 0, 0);
@@ -12,7 +15,6 @@ body,html {
 .background-img
 {
     height: 100%;
-    background-image: url('b2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -30,7 +32,7 @@ body,html {
 }
   
 .data-container {
-    width: 1000px;
+    width: 80%;
     height: 384px;
     position: relative;
     margin: 0 auto;
@@ -72,16 +74,18 @@ body,html {
     width: 100%;
     text-align: center;
 }
+.btns {
+    text-align: center;
+}
 .btn1 {
     padding: 12px;
     font-weight: bolder;
+    font-size: 16px;
     background-color: #000000;
     border-radius: 10px;
     color: white;
-    font-size: 16px;
     border: white;
-    margin-left: 30vw;
-    margin-top: 4vw;
+    margin-top: 20px;
     margin-right: 1vw;
 }
 .btn2 {
@@ -125,16 +129,29 @@ body,html {
 
 .persnal-info {
     margin-top: 50px;
-    padding: 12px;
-    height: 50px;
+    padding: 35px;
+    height: 30px;
     font-weight: bolder;
     background-color: #000000;
     border-radius: 10px;
     color: white;
     font-size: 16px;
     border: white;
-    padding-bottom: 30px;
     text-align: center;
+    position: relative;
+}
+
+
+@media (max-width: 970px) {
+    .background-img {
+        background-image: url('bmob.jpg');
+    }
+}
+
+@media (min-width: 971px) {
+    .background-img {
+        background-image: url('b2.jpg');
+    }
 }
 
 .fa {
@@ -146,20 +163,16 @@ body,html {
     border-radius: 50%;
   }
   
-  /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
   
-  /* Facebook */
   .fa-google {
     background: #dd4b39;
     color: white;
   }
   
-  /* Twitter */
   .fa-linkedin {
     background: #007bb5;
     color: white;

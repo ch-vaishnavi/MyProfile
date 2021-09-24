@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <!-- head -->
   <head>
     <meta charset="UTF-8" />
@@ -15,38 +14,35 @@
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  
+<div class="container background-img">   
   <!-- body -->
-  
-<body>
-  <div class="background-img">
-      <section class="head">Sorting Algorithms Visualizer</section>
-      <section class="data-container"></section> 
+    <body>
+        <section class="head">Sorting Algorithms Visualizer</section>
+        <section class="data-container"></section> 
+            
+        <div class="btns">
+          <button  class="btn1" onclick="generate()" id="Button1" >
+            Generate New Array</button>      
           
-      <!-- "Generate New Array" button -->
-      <button  class="btn1" onclick="generate()" id="Button1" >
-        Generate New Array</button>      
-      <!-- "Sorting Algorithms" button -->
-      <button class="btn2" 
-              onclick="SelectionSort(),disable()" id="Button2" >
-        Selection Sort</button>
-        <button class="btn3" 
-              onclick="BubbleSort(),disable()" id="Button3" >
-        Bubble Sort</button>
-        <button class="btn5" 
-              onclick="MergeSort(),disable()" id="Button5" >
-        Merge Sort</button>
-        <button  class="btn4" 
-              onclick="HeapSort(),disable()" id="Button4" >
-          Heap Sort</button>
-
-        <div  class="persnal-info">
+          <button class="btn2" 
+                  onclick="SelectionSort(),disable()" id="Button2" >
+            Selection Sort</button>
+          <button class="btn3" 
+                onclick="BubbleSort(),disable()" id="Button3" >
+          Bubble Sort</button>
+          <button class="btn5" 
+                onclick="MergeSort(),disable()" id="Button5" >
+          Merge Sort</button>
+          <button  class="btn4" 
+                onclick="HeapSort(),disable()" id="Button4" >
+            Heap Sort</button>
+        </div> 
+    </body>
+    <div  class="persnal-info">
       Vaishnavi Chavan   <span class="contact-me"><a href="mailto: vaishnavi.chavan1811@gmail.com" class="fa fa-google"></a>
-      <a href="https://www.linkedin.com/in/vaishnavi-chavan-7062171ab/" class="fa fa-linkedin"></a></span></div>
+      <a href="https://www.linkedin.com/in/vaishnavi-chavan-7062171ab/" class="fa fa-linkedin"></a></span>
     </div>
-</body>
-
-  
+</div>  
   <!-- linking index.js -->
   <script src="script.js"></script>
 </html>

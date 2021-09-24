@@ -321,9 +321,10 @@ async function SelectionSort(delay = 300) {
   document.getElementById("Button4").disabled = false;
   document.getElementById("Button4").style.backgroundColor = "#6f459e";
 }
-  
 
-generatebars();
+let num =  Math.round(screen.width/25);
+
+generatebars(num);
 
  function generate()
 {
