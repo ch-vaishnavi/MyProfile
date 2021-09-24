@@ -1,0 +1,2 @@
+# VisualizationProjects
+A web application using HTML, CSS, Javascript to visualize how various sorting algorithms work. We have learnt sorting algorithms like bubble sort, selection sort, merge sort, heap sort. But often we fail to understand the core idea of a particular algorithm maybe because we are unable to visualize how they work. So the most important thing to understand these algorithms is visualization.
